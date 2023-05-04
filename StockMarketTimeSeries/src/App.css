@@ -1,0 +1,50 @@
+.App {
+  text-align: left;
+  font-family: Verdana, sans-serif;
+}
+
+/* .stockExchangeFilter {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stockExchangeFilter_datePicker {
+  display: flex;
+}
+.stockExchangeFilter_stockSymbol {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+.stockExchangeFilter_stockSymbol input {
+  width: 350px;
+  border-radius: 10px;
+} */
+
+/* ul {
+  columns: 6;
+  column-gap: 20px;
+  height: 300px; set the height of the column 
+li {
+  break-inside: avoid-column; /* prevent list items from breaking across columns 
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: #c35516;
+  border: solid 1px #c35516;
+  border-radius: 10px;
+}
+.button.stockExchangeFilter_submit{
+  background-color: white;
+  color: #5516c3;
+  border: solid 1px #5516c3;
+}
+*/

@@ -1,0 +1,72 @@
+.container {
+  position: relative;
+  width: 20em;
+  min-height: 1.5em;
+  border: 0.05em solid gray;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  outline: none;
+}
+.container:focus {
+  border-color: aqua;
+}
+.value {
+  flex-grow: 1;
+}
+.cross {
+  background: none;
+  color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1.25em;
+}
+.cross:focus,
+.cross:hover {
+  color: #333;
+}
+.column {
+  background-color: gray;
+  align-self: stretch;
+  width: 0.05em;
+}
+.caret {
+  /* translate: 0 25%; */
+  border: 0.25em solid transparent;
+  border-top-color: red;
+}
+
+.options {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 10em;
+  overflow-y: auto;
+  border: 0.05em solid gray;
+  border-radius: 0.25em;
+  width: 100%;
+  left: 0;
+  top: calc(100% + 0.2em);
+  background-color: white;
+  z-index: 100;
+  display: none;
+}
+.options.show {
+  display: block;
+}
+.option{
+  padding: .25em .5em;
+  cursor: pointer;
+}
+
+.option.highLighted{
+  background-color: aqua;
+}
+.option.selected{
+  background-color: blue;
+}
